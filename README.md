@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: sent request to make a new toy- got uninitialized name error from toysController (Toys), Toys shouldnt be plural.
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: getting unhandled rejection syntaxError unexpected end of JSON input.  ensured we were using render json: toy
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: getting 404 routing error no route matches delete, updated routes to include destroy
